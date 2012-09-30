@@ -1,14 +1,14 @@
 
 div#logo{
 	float: left;
-	margin-left: 65px;
+	margin-left: 15px;
 	margin-top: 2px;
-	background-image: 'https://developer.mashery.com/files/logo.png';
+	background-image: 'http://5134a253d2d7f28643d9-7a41afebac0738a46a0560c398c817b2.r46.cf1.rackcdn.com/logo.png
 }
 
 div.navbar-inner{
 	background-image: none;
-	background-color: #222222;
+	background-color: #55949E;
 	padding-top: 20px;
 	padding-bottom: 14px;
 }
