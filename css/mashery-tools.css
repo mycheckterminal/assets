@@ -11,7 +11,7 @@ div.navbar-inner{
 	background-color: #55949E;
 	padding-top: 10px;
 	padding-bottom: 0px;
-        position:fixed;
+        position:relative;
 }
 
 
@@ -760,7 +760,7 @@ input, textarea, select, .uneditable-input {
 ---------------------------------------- */
 
 #header {
-  position:fixed;
+  
         height: 90px;
       	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#30000000, endColorstr=#30000000);
 	zoom:1;	
@@ -771,8 +771,7 @@ input, textarea, select, .uneditable-input {
 }
 
 .header_top {
-  position:fixed;
-	font-size:16px;
+  	font-size:16px;
 	color:#F1F1F1;
    font-family: 'Open Sans','Arial';
 text-shadow: 1px 1px black;
