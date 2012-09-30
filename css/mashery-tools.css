@@ -2583,10 +2583,10 @@ div.author {
 	content:"·";
 	position:relative;
 	left:-8px;
-	color:#fff;
+	color:#406FB8;
 }
 #footer-container a {
-	color:#fff;
+	color:#406FB8;
 }
 #footer-container a.current, #footer-container a:hover {
 	color:#000;
