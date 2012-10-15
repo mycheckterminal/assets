@@ -4,15 +4,17 @@
   Bootstrap's documentation styles
   Special styles for presenting Bootstrap's documentation and examples
 */
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=DroidSansRegular');
 
 
 /* Body and structure
 -------------------------------------------------- */
 body {
   position: relative;
-  padding-top: 90px;
+  padding-top: 40px;
   background-color: #fff;
-  background-image: url(../img/grid-18px-masked.png);
+  background-image: url();
   background-repeat: repeat-x;
   background-position: 0 40px;
 }
@@ -46,7 +48,7 @@ section {
 /* Faded out hr */
 hr.soften {
   height: 1px;
-  margin: 54px 0;
+  margin: 40px 0;
   background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
   background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
   background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
@@ -62,13 +64,16 @@ hr.soften {
 }
 .jumbotron h1 {
   margin-bottom: 9px;
-  font-size: 81px;
+  font-size: 80px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px black;
+  color: #5EA2FF;
   font-weight: bold;
   letter-spacing: -1px;
   line-height: 1;
 }
 .jumbotron p {
-  margin-bottom: 18px;
+  margin-bottom: 15px;
   font-weight: 300;
 }
 .jumbotron .btn-large {
@@ -113,6 +118,9 @@ hr.soften {
 }
 .subhead h1 {
   font-size: 54px;
+font-family: 'Pacifico', cursive;
+text-shadow: 1px 1px black;
+        color: #5EA2FF;
 }
 
 /* Subnav */
@@ -249,6 +257,9 @@ hr.soften {
   font-size: 40px;
   font-weight: 300;
   text-align: center;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px black;
+        color: #5EA2FF;
 }
 .marketing h2,
 .marketing h3 {
