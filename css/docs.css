@@ -12,7 +12,7 @@
 -------------------------------------------------- */
 body {
   position: relative;
-  padding-top: 50px;
+  padding-top: 60px;
   background-image: url();
   background-repeat: repeat-x;
   background-position: 0 40px;
@@ -74,6 +74,7 @@ hr.soften {
 .jumbotron p {
   margin-bottom: 15px;
   font-weight: 300;
+  text-shadow: 1px 1px black;
 }
 .jumbotron .btn-large {
   font-size: 20px;
@@ -117,7 +118,6 @@ hr.soften {
 }
 .subhead h1 {
   font-size: 54px;
-font-family: 'Pacifico', cursive;
 text-shadow: 1px 1px black;
         color: #5EA2FF;
 }
