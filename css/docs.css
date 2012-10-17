@@ -16,6 +16,7 @@ body {
   background-image: url();
   background-repeat: repeat-x;
   background-position: 0 40px;
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -62,7 +63,7 @@ hr.soften {
   position: relative;
 }
 .jumbotron h1 {
-  margin-bottom: 9px;
+  margin-bottom: 2px;
   font-size: 80px;
   font-family: 'Pacifico', cursive;
   text-shadow: 1px 1px black;
@@ -72,7 +73,7 @@ hr.soften {
   line-height: 1;
 }
 .jumbotron p {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: 300;
   text-shadow: 1px 1px black;
 }
@@ -91,15 +92,15 @@ hr.soften {
 
 /* Masthead (docs home) */
 .masthead {
-  padding-top: 36px;
-  margin-bottom: 72px;
+  padding-top: 20px;
+  margin-bottom: 42px;
 }
 .masthead h1,
 .masthead p {
   text-align: center;
 }
 .masthead h1 {
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 .masthead p {
   margin-left: 5%;
